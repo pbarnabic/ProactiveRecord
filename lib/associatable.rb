@@ -1,4 +1,4 @@
-require_relative '02_searchable'
+require_relative 'searchable'
 require 'active_support/inflector'
 
 class AssocOptions
@@ -34,7 +34,7 @@ class HasManyOptions < AssocOptions
 end
 
 module Associatable
-  
+
   def belongs_to(name, options = {})
     options_obj = BelongsToOptions.new(name, options)
     self.assoc_options[name.to_s.singularize.to_sym] = options_obj
