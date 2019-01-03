@@ -47,7 +47,7 @@ end
 
 To test Proactive Record, first clone this repository.
 
-In your terminal,
+From your command line,
    * Run ```cat import_db.sql | sqlite3 test.db```
    * Open pry by entering ```pry``` or use the Rails Console by entering ```irb -r ./demo.rb```
        - If you are using ```pry```, enter ```load "demo.rb"```.
