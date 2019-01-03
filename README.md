@@ -51,6 +51,6 @@ From your command line,
    * Run ```cat import_db.sql | sqlite3 test.db```
    * Open pry by entering ```pry``` or use the Rails Console by entering ```irb -r ./demo.rb```
        - If you are using ```pry```, enter ```load "demo.rb"```.
-   * Enter commands as you would in ActiveRecord, such as ```User.find(1)```.
+   * Enter commands as you would in ActiveRecord, such as ```User.find(1).posts```.
     
     
