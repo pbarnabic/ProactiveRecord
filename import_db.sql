@@ -38,7 +38,7 @@ VALUES
 INSERT INTO
   posts (id, body, author_id)
 VALUES
-  (1, "I need a job", 1),
+  (1, "Hire Me. Call me at 201-783-0234 or visit ptbarnabic.github.io", 1),
   (2, "Grad Night is tonight", 2),
   (3, "Make sure to complete your tasks", 3),
   (4, "Paul, make sure to complete your tasks", 3);
